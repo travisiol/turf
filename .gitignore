@@ -1,0 +1,29 @@
+# dependencies (any depth)
+node_modules/
+.pnp
+.pnp.*
+
+# next.js
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# env — keep the template
+.env*
+!.env.example
+
+# captures and scratch
+/docs/captures/
+*.log
+.DS_Store
+.vercel
+
+# headless Chrome profile used by scripts/capture.mjs
+/.capture-profile*/
+
+# contracts build output
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/

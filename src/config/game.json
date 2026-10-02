@@ -1,0 +1,6 @@
+{
+  "turfs": 100,
+  "startPriceWei": "1000000000000000",
+  "priceStepPct": 120,
+  "previousShareOfIncreasePct": 50
+}

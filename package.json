@@ -1,0 +1,38 @@
+{
+  "name": "turf",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TURF — take a turf, earn from every trade. 100 turfs; holders earn an equal share of the coin's creator fees in ETH.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "next dev --port 3893",
+    "build": "next build",
+    "start": "next start --port 3893",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "npm --prefix contracts test",
+    "capture": "node scripts/capture.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.103.1",
+    "@walletconnect/ethereum-provider": "^2.25.0",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "viem": "^2.56.8",
+    "wagmi": "^3.7.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
